@@ -1,0 +1,136 @@
+/*
+font size
+font family
+underline each <li> (or give it a bottom border)
+backround color
+shape
+
+*/
+
+h1 {font-family: 'Pacifico', cursive;}
+
+
+p {
+color:red;
+font-size: 30px;
+position: 
+bottom: 24px;
+font-family: 'Shadows Into Light', cursive;
+}
+p.two {
+	color: purple;
+	font-family: 'Shadows Into Light', cursive;
+
+	}
+
+	div.container{
+	  max-width: 990px;	
+	  padding: 20px;
+	  margin: auto;
+	  background-color: white;
+	}
+	div.blue{
+		
+	    
+	    padding:0px; margin:0px;
+	  
+	}
+div.List a { 
+	width: 60%;
+	margin: 20px;
+	display: inline-block;
+	font-family: Sans-serif;
+	color: gray;
+
+	
+	    
+	}
+div.List  { width: 33.3%;
+		height: 200px;
+		display: inline-block;
+	font-family: Sans-serif;
+	float: left;
+	
+}
+
+
+
+
+
+
+div.black{
+		
+	   }
+	div.me{ 
+		width:33.3%;
+		height:200px;
+		display: inline-block;
+		float: left
+	}
+	div.PARENT a {
+		font-size: 100px;
+		color: red; 
+		  text-decoration: none;
+		  font-family: 'Cinzel', serif;
+
+
+
+	}
+	div.PARENT a:hover {color: hotpink;}
+	div.List a:hover {color: black;}
+
+body {
+    background-image: url('Img/stardust.png');
+     background-repeat: repeat;
+}
+ul {
+    list-style-type: none;
+} 
+.timeline {
+  
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 0 5px 0 5px;
+  line-height: 24px;
+  height: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+div.MainheaderBlock {width: 104%;
+  height: 164px;
+  background: #000;
+  padding: 0 !important;
+  margin: -20px;
+  top: 0;
+  left: 0;
+}
+div.headerBlock-Top {height: 110px;
+  border-bottom: 1px solid #333;
+  line-height: 26px;
+  border-top: 1px solid #333;
+  padding: 0 20px 0 20px;
+  float: left;
+  width: 96.2%;
+  margin-top: 25px;
+
+  
+}
+a#TheBook
+{background-image: url('Img/IMAGEES.png');
+height: 90px;
+display:inline-block;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: 60px 100px;
+background-position: left;
+background-size: 1000px;}
+
+li {border-bottom: 1px dashed gray}
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    width: 100%;
+  }
+}
