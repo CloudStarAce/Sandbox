@@ -26,8 +26,11 @@ p.two {
 	div.container{
 	  max-width: 990px;	
 	  padding: 20px;
+	  padding-bottom: 570px;
 	  margin: auto;
 	  background-color: white;
+    box-shadow: 5px 5px 50px #000000;
+}
 	}
 	div.blue{
 		
@@ -41,19 +44,22 @@ div.List a {
 	display: inline-block;
 	font-family: Sans-serif;
 	color: gray;
+}
 
-	
+#chief {
+	display: none;
+	visibility: hidden;
+}	
 	    
-	}
+	
 div.List  { width: 33.3%;
-		height: 200px;
 		display: inline-block;
 	font-family: Sans-serif;
 	float: left;
 	
 }
 
-
+#divFeedityWidget {display: inline-block;}
 
 
 
@@ -68,7 +74,7 @@ div.black{
 		float: left
 	}
 	div.PARENT a {
-		font-size: 100px;
+		font-size: 50px;
 		color: red; 
 		  text-decoration: none;
 		  font-family: 'Cinzel', serif;
@@ -117,20 +123,93 @@ div.headerBlock-Top {height: 110px;
 
   
 }
-a#TheBook
-{background-image: url('Img/IMAGEES.png');
-height: 90px;
-display:inline-block;
- background-attachment: fixed;
- background-repeat: no-repeat;
- background-position: 60px 100px;
-background-position: left;
-background-size: 1000px;}
+a#TheBook {
+	
+	background-image: url('Img/IMAGEES.png');
+	height: 110px;
+	display:inline-block;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 9px -12px;
+	background-size: 1000px;
+}
+
+a#Twitter {
+	background-image: url('Img/IMAGEES.png');
+	height: 110px;
+	display:inline-block;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 263px -10px;
+	background-size: 1000px;
+}
 
 li {border-bottom: 1px dashed gray}
 
 @media (max-width: 600px) {
+/* mobile version */
+
   .facet_sidebar {
     width: 100%;
   }
+div.me {
+	width: 100%;
+}
+div.List {width: 100%;}
+
+
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fIVE{
+	text-align: center;
+	font-size: 80px;
+	font-family: serif;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+
+}
+a:hover{
+	color: red;
 }

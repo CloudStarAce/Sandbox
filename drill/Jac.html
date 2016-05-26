@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html>
+
+<head>  
+<style type="text/css">
+ .fadein { position:relative; width:500px; height:332px; }
+.fadein img { position:absolute; left:0; top:0; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script><script type="text/javascript">
+
+$(function(){
+  $('.fadein img:gt(0)').hide();
+  setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+
+</script>
+</head>
+
+
+<body>
+<div class="fadein">
+  <img src="Img/ChiefKeef/ChiefKeef1.jpg">
+  <img src="Img/ChiefKeef/chiefkeef10.jpg">
+  <img src="Img/ChiefKeef/chiefkeef650430c.jpg">
+</div>
+
+</body>
+</html>
+
+<!-- 
+Jonathan Snook
+jonathan@snook.ca
+Telephone: (613) 769-7477
+
+AIM: wwwsnookca
+Gtalk: jonathan.snook@gmail.com
+Skype: jonathan.snook -->
